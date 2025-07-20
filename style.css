@@ -1,0 +1,60 @@
+/* Basic styling for the page */
+body {                              /* Target the entire page body */
+  font-family: 'Helvetica', sans-serif;  /* Set the font to Roboto, with sans-serif as backup */
+  background: linear-gradient(135deg, #ffb98b 0%, #ffffff 50%, #abcfff 100%);
+  font-size: 40px;
+  text-align: center;
+  color: #111;                        /* Set text color to dark gray (almost black) */
+  margin: 20px;                          /* Remove default spacing around the body */
+  min-height: 100vh;                  /* Ensure gradient covers full viewport height */
+}
+
+/* Make the first paragraph (First Assignment) smaller */
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;
+  border-bottom: 1px solid #616161;
+  padding-bottom: 20px;
+}
+
+.left {
+  font-size: 15px;
+  color: grey
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: grey
+}
+
+.right {
+  font-size: 15px;
+  color: grey
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 2px 5px rgba(66, 66, 66, 0.2);
+  border: 1px solid #535353;
+  cursor: pointer;
+}
