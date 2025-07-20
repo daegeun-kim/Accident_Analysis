@@ -1,13 +1,13 @@
 var map = new maplibregl.Map({
         container: 'map', // container id
-        style: './positron.json', // style URL for basemap
+        style: 'style.json', // style URL for basemap
         center: [-97.974973, 39.421682], // starting position [lng, lat]
         zoom: 4 // starting zoom
     });
 
 map.addControl(new maplibregl.NavigationControl());
 
-fetch('./ip_locations.geojson')
+fetch('ip_locations.geojson')
     .then((response) => response.json())
     .then((data) => {
         console.log("Data fetched successfully:", data);
