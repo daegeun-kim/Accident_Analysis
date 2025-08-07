@@ -1,0 +1,1 @@
+The original intention for the data set is to find relationship between where I usually would go for photography vs the location of subway station, because I always rely on subway to travel around the city. But I have not thought through the specific use or analysis for two dataset.
